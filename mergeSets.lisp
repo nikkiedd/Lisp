@@ -6,7 +6,7 @@
 		((NULL B) A)
 		( (<(CAR A) (CAR B)) (CONS (CAR A) (merge1 (CDR A) B)) )
 		( (>(CAR A) (CAR B)) (CONS (CAR B) (merge1(CDR B) A)) )
-		( (EQL(CAR A) (CAR B)) (CONS (CAR A) (merge1 (CDR A) (CDR B))))
+		( (EQUAL(CAR A) (CAR B)) (CONS (CAR A) (merge1 (CDR A) (CDR B))))
 	)
 )
 

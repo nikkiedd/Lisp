@@ -1,6 +1,6 @@
 (DEFUN factorial(n)
 ( COND
-	( (EQ n 0) 1)
+	( (EQUAL n 0) 1)
 	(T  ( * n ( factorial (- n 1)) ) )
 )
 )
