@@ -4,8 +4,8 @@
  (DEFUN rev(L)
 	(COND
 		((NULL L) NIL)
-		( (LISTP (CAR L)) (CONS (rev (CDR L)) (rev (CAR L))) )
-		( (ATOM (CAR L)) (CONS (rev (CDR L)) (CAR L)) )
+		( (LISTP (CAR L)) (APPEND (rev (CDR L)) (rev (CAR L))) )
+		( (ATOM (CAR L)) (APPEND (rev (CDR L)) (LIST(CAR L))) )
 	)
 )
 
