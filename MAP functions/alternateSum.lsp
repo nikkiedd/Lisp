@@ -1,4 +1,4 @@
-Write a function that computes the sum of even numbers and subtracts from it the sum of odd numbers, at any level of a list.
+;Write a function that computes the sum of even numbers and subtracts from it the sum of odd numbers, at any level of a list.
 (DEFUN alternateSum(X)
 	(COND
 		( (NULL X)	NIL)
