@@ -1,4 +1,4 @@
-Write a function that returns the number of atoms in a list, at any level.
+;Write a function that returns the number of atoms in a list, at any level.
 
 (DEFUN count1(X)
 	(COND
