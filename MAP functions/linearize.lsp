@@ -1,4 +1,4 @@
-Write a function that produces the linear list of all atoms of a given list, from all levels, and written in the same order.
+;Write a function that produces the linear list of all atoms of a given list, from all levels, and written in the same order.
 
 (DEFUN linearize(X)
 	(COND
