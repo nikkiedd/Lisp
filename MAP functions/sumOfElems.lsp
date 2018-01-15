@@ -1,4 +1,4 @@
-Write a function that returns the sum of the numerical atoms in a list, at any level
+;Write a function that returns the sum of the numerical atoms in a list, at any level
 
 (DEFUN sum(X)
 	(COND
