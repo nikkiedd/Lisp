@@ -1,4 +1,4 @@
-Write a function that returns the product of numeric atoms in a list, at any level
+;Write a function that returns the product of numeric atoms in a list, at any level
 
 (DEFUN prod(X)
 	(COND
